@@ -1,0 +1,180 @@
+body {
+    margin: 0 auto;
+    padding: 2em 0 0 0;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: 150px;
+    padding: 0 2em;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, .page-wrap:after{
+    height: 150px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+    position: relative;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    clear: both;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#typed-strings p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+#typed {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:20px;
+	background:#f0f0f0;
+	border-radius:5px;
+	border:#CCC 1px solid;
+}
+
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+#menu-top {
+    margin: 0 auto;
+    height: 50px;
+}
+
+#menu-top .col-xs-12 {
+    padding: 0;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 5px 0 5px;
+}
+
+#bonjour-intro {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+#bonjour-title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3em;
+    color: #D0021B;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#extra-padding {
+    padding: 0 50px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 485px){
+    #extra-padding{
+       padding: 0px; 
+    }
+}
+
+#right-side p{
+    text-align: center;
+    padding-top: 72px;
+}
+
+#sos-alternance {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+#down-cv {
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-decoration: underline;
+    color: #D0021B;
+    font-size: 1.12em;
+}
+
+footer {
+    background: #f9f9f9;
+	width:100%;
+}
+
+.col-sm-6 a{
+    color: black;
+    line-height: 150px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.12em;
+}
+
+.col-sm-6 a:hover {
+    color: #D0021B;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.content-footer {
+    text-align: center;
+    background: #f9f9f9;
+}
+
